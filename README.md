@@ -22,6 +22,7 @@
             );
         }
     </script>
+
 ```
 
 ## الخطوة الثانية
@@ -30,8 +31,9 @@
 و ضع الكود فوقه مباشرة
 
 ```scss
-<link href="https://cdn.jsdelivr.net/gh/heny007/Auto-darkmode/light-theme.css" rel="stylesheet" media="(prefers-color-scheme: light)" />
-<link href="https://cdn.jsdelivr.net/gh/heny007/Auto-darkmode/dark-theme.css" rel="stylesheet" media="(prefers-color-scheme: dark)" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/heny007/Auto-darkmode/light-theme.css" rel="stylesheet" media="(prefers-color-scheme: light)" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/heny007/Auto-darkmode/dark-theme.css" rel="stylesheet" media="(prefers-color-scheme: dark)" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@forevolve/bootstrap-dark@1.1.0/dist/css/bootstrap-dark.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@forevolve/bootstrap-dark@1.1.0/dist/css/bootstrap-prefers-light.min.css" />
  
