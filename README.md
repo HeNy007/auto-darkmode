@@ -1,5 +1,6 @@
 # auto-darkmode
 #just add this codes to your html
+
 <script>
         // Fall back if the browser doesn't support prefers-color-scheme
         if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
@@ -14,4 +15,4 @@
         }
     </script>
 <link href="light-theme.css" rel="stylesheet" media="(prefers-color-scheme: light)" />
-    <link href="dark-theme.css" rel="stylesheet" media="(prefers-color-scheme: dark)" />
+<link href="dark-theme.css" rel="stylesheet" media="(prefers-color-scheme: dark)" />
